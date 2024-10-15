@@ -5,7 +5,7 @@ const path = require('path');
 const app = express();
 const port = 3000;
 
-// Middleware
+// Body parser para requisições JSON
 app.use(bodyParser.json());
 app.use(express.static('public'));
 
