@@ -1,0 +1,20 @@
+<html>
+<body>
+  <form action="/salvauser" method="post">
+    Nome: <input type="text" name="userName" value="{{userName}}">
+    <button type="submit">Salvar Nome</button>
+  </form>
+
+  <h2>Lista de Tarefas</h2>
+  <form action="/addtask" method="post">
+    <input type="text" name="task" placeholder="Nova tarefa">
+    <button type="submit">Adicionar Tarefa</button>
+  </form>
+
+  <ul>
+    {{#tasks}}
+    <li>{{.}}</li>
+    {{/tasks}}
+  </ul>
+</body>
+</html>
