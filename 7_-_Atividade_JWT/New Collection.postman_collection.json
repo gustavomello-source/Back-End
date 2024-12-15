@@ -1,0 +1,28 @@
+{
+	"info": {
+		"_postman_id": "05c26cde-11a1-4fda-b3d0-acff12a9f554",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "38049662"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXNzYWdlIjoiTWVuc2FnZW0gVGVzdGUgMyIsInRpbWVzdGFtcCI6MTczNDI4ODk4Mzk2MSwiaWF0IjoxNzM0Mjg4OTgzLCJleHAiOjE3MzQyOTI1ODN9.RrI37xt_INa6ZIs2b9SgW53dRT1vqxOxCyh7AQAVo6I\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3000/decode-token"
+			},
+			"response": []
+		}
+	]
+}
